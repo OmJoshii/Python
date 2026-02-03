@@ -1,0 +1,7 @@
+# The LEGB Rule
+Python follows the LEGB rule when looking up variable names, and searches for them in this order:
+
+1. Local - Inside the current function
+2. Enclosing - Inside enclosing functions (from inner to outer)
+3. Global - At the top level of the module
+4. Built-in - In Python's built-in namespace
